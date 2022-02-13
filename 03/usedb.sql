@@ -1,0 +1,2 @@
+USE three;
+SELECT database();

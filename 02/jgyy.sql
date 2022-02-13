@@ -1,2 +1,2 @@
-CREATE USER 'jgyy'@'localhost';
-GRANT ALL PRIVILEGES ON *.* TO 'jgyy'@'localhost';
+CREATE USER 'jgyy' @'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'jgyy' @'localhost';
