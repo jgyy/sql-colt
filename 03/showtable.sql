@@ -1,5 +1,5 @@
-USE three
+USE three;
 SHOW TABLES;
-SHOW COLUMNS
+SHOW COLUMNS;
 FROM cats;
 DESC cats;
