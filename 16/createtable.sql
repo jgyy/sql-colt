@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS join_us;
+--
+USE join_us;
+--
+CREATE TABLE IF NOT EXISTS users (
+    email VARCHAR(255) PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+--
+INSERT INTO users (email) VALUES('Katie34@yahoo.com'), ('Tunde@gmail.com');
+--
+SELECT * FROM users;
