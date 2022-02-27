@@ -4,5 +4,9 @@
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.7",
     "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
   }
 }
